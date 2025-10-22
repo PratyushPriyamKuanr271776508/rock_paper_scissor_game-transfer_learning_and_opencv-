@@ -30,16 +30,7 @@ The computer then makes its own move randomly, and the winner of each round is d
 
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone https://github.com/&lt;your-username&gt;/rock-paper-scissors-opencv.git</code></pre>
-  </li>
-  <li>Navigate to the project directory:
-    <pre><code>cd rock-paper-scissors-opencv</code></pre>
-  </li>
-  <li>Install dependencies:
-    <pre><code>pip install -r requirements.txt</code></pre>
-  </li>
-  <li>Run the game:
-    <pre><code>python rps_game.py</code></pre>
+    <pre><code>git clone https://github.com/PratyushPriyamKuanr271776508/rock_paper_scissor_game-transfer_learning_and_opencv-.git</code></pre>
   </li>
 </ol>
 
@@ -48,13 +39,6 @@ The computer then makes its own move randomly, and the winner of each round is d
 <h2 style="color:#2c3e50;">🧠 Model Training & Saving</h2>
 
 <p>The game uses a <strong>CNN (Convolutional Neural Network)</strong> model trained on hand gesture images to predict rock, paper, or scissors.</p>
-
-<p>Once trained, you can save the model using:</p>
-<pre><code>model.save('rps_model.h5')</code></pre>
-
-<p>Later, load it using:</p>
-<pre><code>import tensorflow as tf
-model = tf.keras.models.load_model('rps_model.h5')</code></pre>
 
 ---
 
