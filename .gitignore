@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual envs
+venv/
+env/
+.env
+
+# Models / data
+*.h5
+*.ckpt
+*.pth
+model/
+models/
+saved_models/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
